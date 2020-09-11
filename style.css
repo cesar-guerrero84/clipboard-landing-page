@@ -1,0 +1,234 @@
+/* paleta de colores */
+
+colgroup{
+    /* primarios */
+    color: hsl(171, 66%, 44%);
+    color: hsl(233, 100%, 69%);
+    /* neutral */
+    color: hsl(210, 10%, 33%);
+    color: hsl(201, 11%, 66%);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    Font size: 18px;
+    Font-family: 'Bai Jamjuree', sans-serif;
+
+    /* header */
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    padding: 9% 0;
+}
+header h1{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 240%;
+}
+header p{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    line-height: 150%;
+    font-size: 110%;
+}
+.button-container{
+    margin-top: 2%;
+    text-align: center;
+}
+.button-container button{
+    padding: 0.9% 2%;
+    border-radius:40px;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+}
+.button-ios{
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 0.8%;
+}
+.button-mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+/* snippets */
+
+.snippets{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.snippets h2{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 1%;
+    font-weight: 600;
+    font-size: 200%;
+}
+.snippets p{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    line-height: 150%;
+    margin-bottom: 4%;
+    font-size: 110%;
+}
+.snippets-details{
+    display: flex;
+    flex-direction: row;
+}
+.snippets-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 1%;
+    text-align: start;
+}
+.snippets-details h3{
+    margin: 7% 0%;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 150%;
+}
+.snippets-details p{
+    line-height: 170%;
+    font-size: 110%;
+}
+
+/* access */
+
+.access{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+}
+.access h2{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 1%;
+    font-weight: 600;
+    font-size: 200%;
+}
+.access p{
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 5%;
+    font-size: 110%;
+    line-height: 170%;
+}
+
+/* workflow */
+
+.workflow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.workflow h2{
+    margin-bottom: 1.5%;
+    font-size: 200%;
+    color: hsl(210, 10%, 33%);
+}
+.workflow p{
+    color: hsl(201, 11%, 66%);
+    font-size: 110%;
+    line-height: 170%;
+}
+.workflow-details{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 5% 0%;
+    margin-left: 8%;
+}
+.blacklist{
+    margin: 0 2%;
+    align-content: center;
+}
+
+.blacklist h3{
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.plain{
+    margin: 0 2%;
+    align-content: center;
+}
+
+.plain h3{
+    margin-top: 9.2%;
+    margin-bottom: 4.8%;
+}
+.sneak{
+    margin: 0 2%;
+    align-content: center;
+}
+
+.sneak h3{
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+/* companies */
+
+.companies{
+    text-align: center;
+    margin: 10% 0%;
+    text-align: center;
+}
+.companies img{
+    margin: 0 3%;
+    text-align: center;
+}
+
+/* download */
+
+.download{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.download h2{
+    color: hsl(210, 10%, 33%);
+    font-size: 200%;
+    margin-bottom: 1%;
+}
+.download p{
+    color: hsl(201, 11%, 66%);
+    line-height: 170%;
+    font-size: 110%;
+    margin-bottom: 1%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+footer img{
+    width: 50%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.redes img{
+    width: 3%;
+    height: 30%;
+    
+}
