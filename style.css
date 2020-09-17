@@ -16,10 +16,10 @@ colgroup{
 body{
     Font size: 18px;
     Font-family: 'Bai Jamjuree', sans-serif;
-
-    /* header */
-
 }
+
+/* header */
+
 header{
     display: flex;
     flex-direction: column;
