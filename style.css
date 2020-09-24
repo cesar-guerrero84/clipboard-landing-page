@@ -14,7 +14,7 @@ colgroup{
     padding: 0;
 }
 body{
-    Font size: 18px;
+    font-size: 18px;
     Font-family: 'Bai Jamjuree', sans-serif;
 }
 
@@ -159,6 +159,7 @@ header p{
 .blacklist h3{
     margin-top: 7%;
     margin-bottom: 5%;
+    color: hsl(210, 10%, 33%);
 }
 .plain{
     margin: 0 2%;
@@ -166,8 +167,9 @@ header p{
 }
 
 .plain h3{
-    margin-top: 9.2%;
-    margin-bottom: 4.8%;
+    margin-top: 9.7%;
+    margin-bottom: 4.5%;
+    color: hsl(210, 10%, 33%);
 }
 .sneak{
     margin: 0 2%;
@@ -177,6 +179,7 @@ header p{
 .sneak h3{
     margin-top: 9%;
     margin-bottom: 5%;
+    color: hsl(210, 10%, 33%);
 }
 
 /* companies */
@@ -261,3 +264,136 @@ footer figure{
 }
 /* .attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); } */
+
+/* responsiveDesign */
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    header{
+        padding-top: 30%;
+    }
+    header h1{
+        font-size: 200%;
+        text-align: center;
+        margin: 5% 5%;
+        margin-top: 20%;
+    }
+    header p{
+        margin: 5%;
+        font-size: 100%;
+    }
+    .button-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .button-container button{
+        width: 80%;
+        padding:4% 2%;
+        font-size: 17px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .snippets h2{
+        font-size: 190%;
+        margin-top: 30%;
+    }
+    .snippets p{
+        font-size: 85%;
+        margin: 0% 10%;
+        text-align: center;
+    }
+    .snippets-details{
+        flex-direction: column;
+    }
+    .snippets-details h3{
+        margin-left: 30%;
+        margin-bottom: 3%;
+        margin-top: 10%;
+    }
+    #history{
+        margin-left: 22%;
+    }
+    .snippets-details img{
+        width: 80%;
+        margin-top: 10%;
+    }
+    .snippets-text{
+        justify-content: center;
+        margin: 0;
+        margin-top: 5%;
+    }
+    .access h2{
+        font-size: 190%;
+        margin-bottom: 5%;
+    }
+    .access p{
+        font-size: 85%;
+        margin: 0 10%;
+        margin-bottom: 10%;
+    }
+    .access img{
+        width: 80%;
+        margin-bottom: 20%;
+    }
+    .workflow h2 {
+        font-size: 190%;
+    }
+    .workflow p{
+        font-size: 85%;
+        margin: 3% 5%;
+        margin-bottom: 20%;
+    }
+    .workflow-details{
+        flex-direction: column;
+        margin: 0;
+    }
+    .companies figure{
+        display: flex;
+        flex-direction: column;
+    }
+    .companies figure img{
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 15%;
+    }
+    .download h2{
+        font-size: 190%;
+        margin: 3% 8%;
+    }
+    .download p{
+        font-size: 85%;
+        margin: 3% 10%;
+        margin-bottom: 10%;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        margin-right: 0;
+        margin-top: 50%;
+    }
+    footer figure{
+        margin-left: 17%;
+        margin-bottom: 5%;
+    }
+    footer img{
+        width: 30%;
+    }
+    .column{
+        width: 100%;
+    }
+    .install-guide{
+        width: 100%;
+    }
+    .redes{
+        justify-content: center;
+        width: 110%;
+        margin-top: 10%;
+    }
+    .redes img{
+        width: 7%;
+    }
+}
